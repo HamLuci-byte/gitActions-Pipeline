@@ -6,10 +6,10 @@ from django.shortcuts import render
 from django.utils.encoding import force_str
 from django.utils.translation import ngettext
 
-from haystack import connections
-from haystack.constants import DEFAULT_ALIAS
-from haystack.query import SearchQuerySet
-from haystack.utils import get_model_ct_tuple
+#from haystack import connections
+#from haystack.constants import DEFAULT_ALIAS
+#from haystack.query import SearchQuerySet
+#from haystack.utils import get_model_ct_tuple
 
 
 class SearchChangeList(ChangeList):
